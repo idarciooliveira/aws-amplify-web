@@ -7,7 +7,7 @@ function App() {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <p>Hello form AWS Amplify Baby</p>
-        <p>{process.env.MESSAGE}</p>
+        <p>{process.env.REACT_APP_MESSAGE}</p>
         <a
           className='App-link'
           href='https://reactjs.org'
